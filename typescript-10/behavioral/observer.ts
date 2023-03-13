@@ -2,6 +2,9 @@
 // The observer pattern is used to notify a set of interested parties when a state change occurs.
 // The rxjs library is a popular implementation of this pattern.
 
+// 1 to many relationship
+// used by firebase
+
 import { subject } from 'rxjs';
 
 const news = new Subject();
